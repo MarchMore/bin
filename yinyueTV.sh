@@ -11,7 +11,7 @@
 # 清除用户强制中断后未完成的下载
 export PATH
 DIR=/mnt/myData3/MV/
-dir=~/bin/
+dir=/tmp
 
 cd $dir
 

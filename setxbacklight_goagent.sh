@@ -8,7 +8,7 @@ export PATH
 # 设置背光亮度
 
 # gnome3
-xbacklight -set 70
+#xbacklight -set 70
 
 # nemo
 #pkexec /usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 7

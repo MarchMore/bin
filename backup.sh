@@ -7,8 +7,10 @@
 # 增加了备份/root/下文件的功能
 export PATH
 
-DIR=/mnt/myData2/Backup
-cd $DIR
+if [ -d /mnt/myData/Backup ]; then
+    DIR=/mnt/myData2/Backup
+    cd $DIR
+fi
 
 # 备份
 if [ `whoami` = "yangning" ]; then 

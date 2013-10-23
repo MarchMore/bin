@@ -72,3 +72,5 @@ autoconf_fun     &&
 autoheader_fun   &&
 automake_fun
 echo "Done!"
+
+exit 0

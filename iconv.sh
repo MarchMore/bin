@@ -13,6 +13,7 @@ for FILE in $@
 do
     file $FILE | grep -q "$STRING" #检测文件是否有转换的必要
     if [ $? -eq 0 ]; then 
+	dos2unix $FILE
 	iconv -f gbk -t utf-8 $FILE -o test.txt
 	mv test.txt $FILE
     fi

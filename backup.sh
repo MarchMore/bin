@@ -7,7 +7,7 @@
 # 增加了备份/root/下文件的功能
 export PATH
 
-if [ -d /mnt/myData/Backup ]; then
+if [ -d /mnt/myData2/Backup ]; then
     DIR=/mnt/myData2/Backup
     cd $DIR
 fi

@@ -15,7 +15,7 @@ export PATH
 
 # 使用goagent代理
 
-DIR=/mnt/myData1/GoAgent/local
+DIR=/mnt/myData2/GoAgent/local
 python $DIR/proxy.py
 
 exit 0

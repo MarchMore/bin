@@ -13,12 +13,12 @@ export PATH
 # nemo/unity
 pkexec /usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 7
 
+# emacs daemon
+emacs --daemon
+
 # 使用goagent代理
 DIR=/mnt/myData2/GoAgent/local
 python $DIR/proxy.py
-
-# emacs daemon
-emacs --daemon
 
 exit 0
 # end

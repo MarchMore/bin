@@ -11,7 +11,7 @@ export PATH
 #xbacklight -set 70 (待考究)
 
 # nemo/unity
-pkexec /usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 8
+pkexec /usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 7
 
 # 使用goagent代理
 

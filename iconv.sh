@@ -7,7 +7,7 @@
 #	增加对较大文件的转码支持
 export PATH
 
-STRING="8859"
+STRING="ISO"
 
 for FILE in $@
 do

@@ -11,7 +11,7 @@
 # 清除用户强制中断后未完成的下载
 
 export PATH
-DIR=/mnt/myData3/Media/MV/
+DIR=~/Videos/MV
 dir=/tmp
 
 cd $dir

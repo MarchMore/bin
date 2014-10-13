@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+# 原文地址：http://blog.csdn.net/zhangzhenhu/article/details/7014271 
 
 import struct
 import sys
